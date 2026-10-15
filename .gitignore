@@ -1,0 +1,13 @@
+node_modules/
+dist/
+target/
+*.log
+data/osm/*.pbf
+
+# Local backend database and routing data
+/apps/backend/data/*.pbf
+/apps/backend/data/*.mv.db
+/apps/backend/data/*.trace.db
+/apps/backend/data/*.lock.db
+/services/graphhopper/*.pbf
+/services/graphhopper/graph-cache/

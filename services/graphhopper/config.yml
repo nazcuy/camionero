@@ -1,0 +1,21 @@
+graphhopper:
+  graph.location: graph-cache
+  datareader.file: argentina-260728.osm.pbf
+  import.osm.ignored_highways: []
+
+  profiles:
+    - name: car
+      vehicle: car
+      weighting: custom
+      turn_costs: false
+      custom_model:
+        priority:
+          - if: "road_access == DESTINATION"
+            multiply_by: "0"
+        distance_influence: 70
+
+server:
+  application_connectors:
+    - type: http
+      port: 8989
+  admin_connectors: []

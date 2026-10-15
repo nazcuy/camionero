@@ -1,0 +1,6 @@
+{
+  "name": "@camionero/map-style",
+  "private": true,
+  "version": "0.0.1",
+  "main": "src/style.json"
+}

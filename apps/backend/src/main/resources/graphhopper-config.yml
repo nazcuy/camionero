@@ -1,0 +1,11 @@
+graphhopper:
+  graph.location: target/graphcache
+  datareader.file: data/argentina-260728.osm.pbf
+
+  profiles:
+    - name: car
+      vehicle: car
+      weighting: fastest
+      turn_costs: false
+
+  graph.encoded_values: road_access, road_class, road_environment, surface, toll, max_speed, country
