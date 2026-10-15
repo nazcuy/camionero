@@ -10,4 +10,5 @@ data/osm/*.pbf
 /apps/backend/data/*.trace.db
 /apps/backend/data/*.lock.db
 /services/graphhopper/*.pbf
+/services/graphhopper/graphhopper-web-*.jar
 /services/graphhopper/graph-cache/
